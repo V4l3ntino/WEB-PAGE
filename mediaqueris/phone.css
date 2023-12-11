@@ -71,18 +71,24 @@
         color: #fff;
         z-index: 10000;
     }
+    .menu .toggle .bxs-game
+    {
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+    }
     .menu .toggle ion-icon
     {
         position: absolute;
         opacity: 0;
         transition: 0.5s;
     }
-    .menu .toggle ion-icon:nth-child(1)
+    .menu .toggle .bxs-game
     {
         opacity: 1;
-        transform: rotate(360deg);
+        transform: rotate(-720deg);
     }
-    .menu.active .toggle ion-icon:nth-child(1)
+    .menu.active .toggle .bxs-game
     {
         opacity: 0;
         transform: rotate(0deg);
@@ -91,6 +97,8 @@
     {
         opacity: 1;
         transform: rotate(360deg);
+        transition-delay: 0.2s;
+        scale: 1.2;
     }
     .menu li 
     {
@@ -318,12 +326,18 @@
         opacity: 0;
         transition: 0.5s;
     }
-    .menu .toggle ion-icon:nth-child(1)
+    .menu .toggle .bxs-game
+    {
+        position: absolute;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    .menu .toggle .bxs-game
     {
         opacity: 1;
-        transform: rotate(360deg);
+        transform: rotate(-720deg);
     }
-    .menu.active .toggle ion-icon:nth-child(1)
+    .menu.active .toggle .bxs-game
     {
         opacity: 0;
         transform: rotate(0deg);
@@ -332,6 +346,8 @@
     {
         opacity: 1;
         transform: rotate(360deg);
+        transition-delay: 0.2s;
+        scale: 1.2;
     }
     .menu li 
     {
