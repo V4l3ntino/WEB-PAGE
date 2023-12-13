@@ -1,5 +1,9 @@
 @media (max-width: 500px) {
 
+    body
+    {
+        background:#350048;
+    }
     
     /* headers */
     header
@@ -247,6 +251,11 @@
   
   @media (width >= 500px) and (width <= 1000px) {
 
+    body
+    {
+        background:#350048;
+    }
+
     /* headers */
     header
     {
@@ -320,13 +329,13 @@
         color: #fff;
         z-index: 10000;
     }
-    .menu .toggle ion-icon
+    .menu .toggle .bxs-game
     {
         position: absolute;
         opacity: 0;
         transition: 0.5s;
     }
-    .menu .toggle .bxs-game
+    .menu .toggle ion-icon
     {
         position: absolute;
         opacity: 0;
