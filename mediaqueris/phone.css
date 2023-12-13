@@ -113,6 +113,7 @@
         transition: 0.5s;
         transition-delay: calc(0.05s);
         transform: rotate(calc(360deg / 3 * var(--i))); 
+        transition-delay: calc(0.05s * var(--i));
         scale: 0;
         z-index: 1;
         overflow: hidden;
@@ -367,6 +368,7 @@
         transition: 0.5s;
         transition-delay: calc(0.05s);
         transform: rotate(calc(360deg / 3 * var(--i))); 
+        transition-delay: calc(0.05s * var(--i));
         scale: 0;
         z-index: 1;
         overflow: hidden;

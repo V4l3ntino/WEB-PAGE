@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <link rel="icon" href="img/icons8-pacman-lleno-16.png">
     <link rel="stylesheet" href="./styles/combination.css">
     <link rel="stylesheet" href="./styles/socialmediabutton.css">
     <link rel="stylesheet" href="./styles/cuerpo.css">
@@ -101,7 +102,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus sequi illum, officia praesentium esse saepe atque nulla asperiores dolores, natus eligendi veritatis amet fugit magnam nostrum, sed tenetur. Atque?</p>
         <aside>
             <div class="socialbox">
-                <dev class="smenu">
+                <dev class="smenu" onclick="socialMedia()">
                     <li style="--i:1;--clr:#ff0000;">
                         <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
                     </li>
@@ -109,7 +110,7 @@
                         <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
                     </li>
                     <li style="--i:3;--clr:#ea4c89;">
-                        <a href="#"><ion-icon name="logo-dribbble"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
                     </li>
                     <li style="--i:4;--clr:#25d366;">
                         <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
@@ -172,13 +173,18 @@
         menu.classList.toggle('active');
     };
 </script>
-<!-- <script>
+<script>
     let stoggle = document.querySelector('.stoggle');
     let smenu = document.querySelector('.smenu');
-    stoggle.onclick = function(){
-        smenu.classList.stoggle('sactive');
-    };
-</script> -->
+    
+    function socialMedia(){
+        if (smenu.classList.contains("sactive")) {
+            smenu.classList.remove("sactive")
+        } else {
+            smenu.classList.add("sactive")
+        }
+    }
+</script>
 
 <script>
     
