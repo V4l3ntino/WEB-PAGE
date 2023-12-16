@@ -38,12 +38,7 @@
     .superboxmobile
     {
         display: contents;
-        /* transition: 0.5s; */
     }
-    /* .superboxmobile .navigation
-    {
-        margin-top: -10%;
-    } */
 
     /* ----------------------------------------- */
 
@@ -223,6 +218,10 @@
     {
         flex-direction: column;
     }
+    .socialbox
+    {
+        
+    }
   }
 
 
@@ -250,7 +249,7 @@
 
 
   
-  @media (width >= 500px) and (width <= 1000px) {
+  @media (width >= 500px) and (width <= 1300px) {
 
     body
     {
@@ -291,12 +290,7 @@
     .superboxmobile
     {
         display: contents;
-        /* transition: 0.5s; */
     }
-    /* .superboxmobile .navigation
-    {
-        margin-top: 0%;
-    } */
 
 
 
@@ -454,6 +448,7 @@
         width: 100%;
         background-color: transparent;
     }
+    
     .socialbox
     {
         margin-left: -100%;
@@ -485,6 +480,7 @@
     {
         flex-direction: column;
     }
+    
     
   }
   

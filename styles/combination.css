@@ -173,7 +173,7 @@ body
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(50px);
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent,#0003); */
 
 }
 
@@ -311,14 +311,20 @@ footer
     justify-content: space-around;
     bottom: 0;
     backdrop-filter: blur(1px);
+    border-top: 1px solid white;
 }
 footer p
 {
     font-size: 20px;
 }
-iframe
+.games
 {
     width: 80%;
     height: 100vh;
     border-radius: 20px;
+    box-shadow: 20px 20px 50px rgb(0,0,0,0.5);
 } 
+.image
+{
+    transform: rotateY(180deg);
+}

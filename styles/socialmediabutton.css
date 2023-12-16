@@ -54,10 +54,9 @@
      list-style: none;
      transform-origin: 110px;
      transition: 0.5s;
-     transition-delay: calc(0.05s);
      transform: rotate(calc(360deg / 4 * var(--i))); 
      transition-delay: calc(0.1s * var(--i));
-     scale: 0;
+     scale: 0.2;
      z-index: 1;
      overflow: hidden;
      border-radius: 50%;
@@ -120,5 +119,5 @@
 }
 
 .socialmedia li:hover a {
-    color: black;
+    color: var(--clr);
 }
